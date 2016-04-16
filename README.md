@@ -12,6 +12,6 @@ mvn deploy
 ```
 ### generate project
 ```bash
-mvn archetype:generate [-DarchetypeCatalog=local] -DarchetypeArtifactId=boot-jsp-archetype
+mvn archetype:generate -DarchetypeCatalog=local
 # inactive mode: input your groupid, artifactId, version, pacage-name and so on....
 ```
